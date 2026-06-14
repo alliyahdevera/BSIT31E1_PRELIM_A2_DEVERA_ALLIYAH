@@ -12,11 +12,9 @@
         continue;
     }
 
-    Console.Write("Enter second number (or 'exit' to quit): ");
+    Console.Write("Enter second number: ");
     string input2 = Console.ReadLine();
 
-    if (input2.ToLower() == "exit")
-        break;
 
     if (!double.TryParse(input2, out double num2))
     {
